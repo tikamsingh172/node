@@ -1,0 +1,23 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "This is a crash course.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Tikam Singh <tikamsingh172@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

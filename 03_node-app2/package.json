@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "This is a node app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Tikamsingh <tikamsingh172@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
